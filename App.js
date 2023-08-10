@@ -3,7 +3,7 @@ import Header from "./components/Header"
 import MainContent from "./components/MainContent"
 import data from "./data"
 
-function App() {
+const App = () => {
     const card = data.map(item=>{
         return <MainContent 
                     key={item.id}
